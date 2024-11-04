@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden !important;
+}
+
+.bg{
+    height: 90%;
+    width: 125%;
+    background: rgb(58, 141, 193);
+    transform: rotate(-10deg);
+    z-index: -1;
+    position: absolute;
+    top: -25%;
+    left: -20%;
+}
